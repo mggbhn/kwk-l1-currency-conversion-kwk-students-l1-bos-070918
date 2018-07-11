@@ -1,6 +1,6 @@
 def usd_to_eur(x=0)
-  dollars = 1
-  euros = 1.2
+  dollars = x
+  euros = 1.2x
 end 
 
 usd_to_eur(3)
