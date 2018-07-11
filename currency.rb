@@ -14,4 +14,3 @@ def eur_to_usd
 end
 
 
-eur_
