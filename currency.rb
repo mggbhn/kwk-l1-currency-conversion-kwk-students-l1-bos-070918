@@ -1,5 +1,5 @@
 def usd_to_eur
-  Dollars(usd) [1]
+  Dollars [1]
   Euros [2]
 end 
 
