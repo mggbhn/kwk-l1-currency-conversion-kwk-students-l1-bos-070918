@@ -11,7 +11,7 @@ def eur_to_usd(x)
   usd_to_eur = []
   euros = [x]
   euros.each do |x|
-   usd_to_eu = 1.20*x
+   usd_to_eu = x / 1.2
    usd_to_eur << usd_to_eu
  end
 end 
