@@ -1,5 +1,9 @@
 def usd_to_eur(x=0)
-  usd_to_eur do 1.20*x
+  eur_to_usd = []
+  usd_to_eur.each do |x|
+   eur_to_us = 1.20*x
+   eur_to_usd << eur_to_us
+ end
 end 
 
 puts usd_to_eur(3)
