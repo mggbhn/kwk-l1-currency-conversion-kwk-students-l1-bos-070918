@@ -7,8 +7,6 @@ def usd_to_eur(x)
  end
 end 
 
-puts usd_to_eur(3)
-
 def eur_to_usd(x)
   usd_to_eur = []
   euros = [x]
@@ -18,4 +16,4 @@ def eur_to_usd(x)
  end
 end 
 
-
+puts eur_to_usd(usd_to_eur(1.0))
