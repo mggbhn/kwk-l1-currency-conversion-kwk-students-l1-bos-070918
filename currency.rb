@@ -3,7 +3,7 @@ def usd_to_eur(x=0)
   euros = 1.2*x
 end 
 
-usd_to_eur(3)
+puts usd_to_eur(3)
 
 def eur_to_usd
   
